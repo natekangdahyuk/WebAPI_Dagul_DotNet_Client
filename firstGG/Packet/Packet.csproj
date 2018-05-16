@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BF7D8A4-66E5-44AA-88DE-33AB47709A46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Packet</RootNamespace>
+    <AssemblyName>Packet</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JsonFx.Json">
+      <HintPath>..\DLL\JsonSerializer_1.4.1003.3007_NetFx2\JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\DLL\unityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authentification\cPKTAccountLoad.cs" />
+    <Compile Include="Authentification\cPKTAccountLoadResult.cs" />
+    <Compile Include="Authentification\cPKTChatLogin.cs" />
+    <Compile Include="Authentification\cPKTGameLogin.cs" />
+    <Compile Include="Authentification\cPKTGameLoginResult.cs" />
+    <Compile Include="Authentification\cPKTIdentify.cs" />
+    <Compile Include="Authentification\cPKTIdentifyResult.cs" />
+    <Compile Include="Authentification\cPKTInit.cs" />
+    <Compile Include="Authentification\cPKTInitResult.cs" />
+    <Compile Include="Base\cJSONPacketBase.cs" />
+    <Compile Include="Base\cWebPacketBase.cs" />
+    <Compile Include="Base\IPacket.cs" />
+    <Compile Include="Base\IPacketCreator.cs" />
+    <Compile Include="Base\IPacketManager.cs" />
+    <Compile Include="Chatting\cPKTChatLoginResult.cs" />
+    <Compile Include="Chatting\cPKTChatRoomChange.cs" />
+    <Compile Include="Chatting\cPKTChatRoomChangeResult.cs" />
+    <Compile Include="Chatting\cPKTSay.cs" />
+    <Compile Include="Chatting\cPKTSayNotify.cs" />
+    <Compile Include="Chatting\cPKTSayResult.cs" />
+    <Compile Include="cPacketId.cs" />
+    <Compile Include="DataType\CharacterDefine.cs" />
+    <Compile Include="DataType\ItemDefine.cs" />
+    <Compile Include="DataType\SkillDefine.cs" />
+    <Compile Include="DataType\TypesCommon.cs" />
+    <Compile Include="Data\cAccountData.cs" />
+    <Compile Include="Data\cItemDeckData.cs" />
+    <Compile Include="Data\cItemStorageData.cs" />
+    <Compile Include="Data\cSkillDeckData.cs" />
+    <Compile Include="Data\cSkillStorageData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{26a20d56-7161-42d8-9b3f-4ebe4b386c56}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,5 @@
+C:\Work\FunPlus\PerforceWorkspace\ProjectS\Client\ProjectS_Alpha\Assets\Code\Network\AFC\bin\Release\AFC.dll
+C:\Work\FunPlus\PerforceWorkspace\ProjectS\Client\ProjectS_Alpha\Assets\Code\Network\AFC\bin\Release\AFC.pdb
+C:\Work\FunPlus\PerforceWorkspace\ProjectS\Client\ProjectS_Alpha\Assets\Code\Network\AFC\obj\Release\AFC.csprojResolveAssemblyReference.cache
+C:\Work\FunPlus\PerforceWorkspace\ProjectS\Client\ProjectS_Alpha\Assets\Code\Network\AFC\obj\Release\AFC.dll
+C:\Work\FunPlus\PerforceWorkspace\ProjectS\Client\ProjectS_Alpha\Assets\Code\Network\AFC\obj\Release\AFC.pdb

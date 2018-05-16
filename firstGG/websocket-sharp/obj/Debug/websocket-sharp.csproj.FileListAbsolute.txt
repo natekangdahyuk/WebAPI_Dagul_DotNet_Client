@@ -1,0 +1,16 @@
+D:\@svn\html5\Server\webSocket_Dagul\Socket_Dagul_Client\ZMultiChatClient\websocket-sharp\bin\Debug\websocket-sharp.dll
+D:\@svn\html5\Server\webSocket_Dagul\Socket_Dagul_Client\ZMultiChatClient\websocket-sharp\bin\Debug\websocket-sharp.pdb
+D:\@svn\html5\Server\webSocket_Dagul\Socket_Dagul_Client\ZMultiChatClient\websocket-sharp\obj\Debug\websocket-sharp.dll
+D:\@svn\html5\Server\webSocket_Dagul\Socket_Dagul_Client\ZMultiChatClient\websocket-sharp\obj\Debug\websocket-sharp.pdb
+D:\@svn\html5\Server\webSocket_Dagul\Socket_Dagul_Client\ZMultiChatClient\websocket-sharp\obj\Debug\websocket-sharp.csprojResolveAssemblyReference.cache
+D:\@svn\html5\tutorial_1\firstGG\websocket-sharp\obj\Debug\websocket-sharp.dll
+D:\@svn\html5\tutorial_1\firstGG\websocket-sharp\obj\Debug\websocket-sharp.pdb
+D:\@svn\html5\tutorial_1\firstGG\websocket-sharp\bin\Debug\websocket-sharp.dll
+D:\@svn\html5\tutorial_1\firstGG\websocket-sharp\bin\Debug\websocket-sharp.pdb
+D:\@svn\html5\tutorial_1\firstGG\websocket-sharp\obj\Debug\websocket-sharp.csprojResolveAssemblyReference.cache
+D:\@svn\WebAPI_Dagul_DotNet_Client\firstGG\websocket-sharp\bin\Debug\websocket-sharp.dll
+D:\@svn\WebAPI_Dagul_DotNet_Client\firstGG\websocket-sharp\bin\Debug\websocket-sharp.pdb
+D:\@svn\WebAPI_Dagul_DotNet_Client\firstGG\websocket-sharp\obj\Debug\websocket-sharp.csprojResolveAssemblyReference.cache
+D:\@svn\WebAPI_Dagul_DotNet_Client\firstGG\websocket-sharp\obj\Debug\websocket-sharp.csproj.CoreCompileInputs.cache
+D:\@svn\WebAPI_Dagul_DotNet_Client\firstGG\websocket-sharp\obj\Debug\websocket-sharp.dll
+D:\@svn\WebAPI_Dagul_DotNet_Client\firstGG\websocket-sharp\obj\Debug\websocket-sharp.pdb
